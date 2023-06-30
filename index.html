@@ -9,28 +9,28 @@
 
 <body>
     <div>
-        <p>- настройка Git на компьютере:
-            - git config --global -l посмотреть текущие настройки
-            - git config --global user.name "Ivanov Ivan" настройка имени
-            - git config --global user.email "my_email@example.org" настройка email
-            - наличие аккаунта на GitHub
-            - выгрузить публичный ключ на GitHub
-            - cat ~/.ssh/id_rsa.pub просмотр публичного ключа (если ошибка, то надо сгенерировать)
-            - ssh-keygen -t rsa сгенирировать пару ключей (ВЫПОЛНИТЬ ТОЛЬКО В НАЧАЛЕ КАРЬЕРЫ)
-            - скопировать публичный ключ на GitHub
-            - ssh -T git@github.com проверить, что ключ выгружен на GitHub
+        <p>- настройка Git на компьютере: <br>
+            - git config --global -l посмотреть текущие настройки <br>
+            - git config --global user.name "Ivanov Ivan" настройка имени <br>
+            - git config --global user.email "my_email@example.org" настройка email <br>
+            - наличие аккаунта на GitHub <br>
+            - выгрузить публичный ключ на GitHub <br>
+            - cat ~/.ssh/id_rsa.pub просмотр публичного ключа (если ошибка, то надо сгенерировать) <br>
+            - ssh-keygen -t rsa сгенирировать пару ключей (ВЫПОЛНИТЬ ТОЛЬКО В НАЧАЛЕ КАРЬЕРЫ) <br>
+            - скопировать публичный ключ на GitHub <br>
+            - ssh -T git@github.com проверить, что ключ выгружен на GitHub <br>
         </p>
     </div>
     <div>
         <p>
-            1. git init создать пустой репо (выполняется один раз, для нового проекта)
-            2. **git add .** поставить все файлы проекта на контроль
-            1. git add src - пример избирательного добавления
-            3. **git commit -m 'описание изменений'**` выполнить коммит (сохранение)
-            4. Создание нового репо на GitHub (один проект - один репо)
-            5. git remote add origin <ссылка> выполнить привязку LOCAL ↔ REMOTE (делается один раз для нового проекта)
-                6. **git push -u origin master** выгрузить на GitHub
-                1. git push -u origin main
+            1. git init создать пустой репо (выполняется один раз, для нового проекта) <br>
+            2. **git add .** поставить все файлы проекта на контроль <br>
+            1. git add src - пример избирательного добавления <br>
+            3. **git commit -m 'описание изменений'**` выполнить коммит (сохранение) <br>
+            4. Создание нового репо на GitHub (один проект - один репо) <br>
+            5. git remote add origin <ссылка> выполнить привязку LOCAL ↔ REMOTE (делается один раз для нового проекта) <br>
+                6. **git push -u origin master** выгрузить на GitHub <br>
+                1. git push -u origin main <br>
                 2. git push
         </p>
     </div>
